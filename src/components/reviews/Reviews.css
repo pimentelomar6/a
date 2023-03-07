@@ -1,0 +1,26 @@
+.componente {
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 522px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imagen-contenedor {
+    text-align: center;
+  }
+
+  .imagen {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .imagen {
+    width: 250px;
+  }
+}
